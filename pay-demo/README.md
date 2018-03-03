@@ -14,9 +14,9 @@
 
 视图容器(View Container)：<br />
 
-组件名	说明
-view	视图容器
-scroll-view	可滚动视图容器
+组件名	说明<br />
+view	视图容器<br />
+scroll-view	可滚动视图容器<br />
 swiper	滑块视图容器<br />
 
 基础内容(Basic Content)：<br />
@@ -28,36 +28,36 @@ progress	进度条<br />
 
 表单(Form)：
 
-标签名	说明
-button	按钮
-form	表单
-input	输入框
-checkbox	多项选择器
-radio	单项选择器
-picker	列表选择器
-picker-view	内嵌列表选择器
-slider	滚动选择器
-switch	开关选择器
-label	标签
+标签名	说明<br />
+button	按钮<br />
+form	表单<br />
+input	输入框<br />
+checkbox	多项选择器<br />
+radio	单项选择器<br />
+picker	列表选择器<br />
+picker-view	内嵌列表选择器<br />
+slider	滚动选择器<br />
+switch	开关选择器<br />
+label	标签<br />
 
 导航(Navigation)：
 
-组件名	说明
-navigator	应用链接
+组件名	说明<br />
+navigator	应用链接<br />
 
 多媒体(Media)：
 
-组件名	说明
-audio	音频
-image	图片
-video	视频
+组件名	说明<br />
+audio	音频<br />
+image	图片<br />
+video	视频<br />
 
 地图(Map)：
 
-组件名	说明
-map	地图
+组件名	说明<br />
+map	地图<br />
 
 画布(Canvas)：
 
-组件名	说明
-canvas	画布
+组件名	说明<br />
+canvas	画布<br />
