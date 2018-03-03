@@ -1,0 +1,4 @@
+/* pages/base/richtext/richtext.wxss */
+.div_class{
+  border:1px solid blue;
+}

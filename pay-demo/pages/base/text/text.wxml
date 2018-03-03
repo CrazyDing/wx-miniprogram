@@ -1,0 +1,8 @@
+<!--pages/base/text/text.wxml-->
+<view>
+  <text selectable decode='{{decode}}' space>&gt;    &lt;\n</text>
+  <button bindtap='decode'>decode({{decode}})</button>
+  <text selectable decode>{{text}}</text>
+  <button bindtap='addLine'>add    line</button>
+  <button bindtap='delLine'>remove line</button>
+</view>

@@ -1,0 +1,8 @@
+<!--pages/form/input/input.wxml-->
+<view class="section">
+  <view class="section__title">你输入的是：{{inputValue}}</view>
+  <input  bindinput="bindKeyInput" placeholder="输入同步到view中"/>
+</view>
+<view class="section">
+  <input  bindinput="bindReplaceInput" placeholder="连续的两个1会变成2" />
+</view>

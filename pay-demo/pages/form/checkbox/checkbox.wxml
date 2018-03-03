@@ -1,0 +1,9 @@
+<!--pages/form/checkbox/checkbox.wxml-->
+<view>
+  <checkbox bindtap='checkAll'>{{flagText}}</checkbox>
+  <checkbox-group bindchange='checkboxChange'>
+    <label style='display:block' wx:for='{{items}}' wx:key='{{index}}'>
+      <checkbox value='{{item.name}}' checked='{{item.checked}}'>{{item.value}}</checkbox>
+    </label>
+  </checkbox-group>
+</view>

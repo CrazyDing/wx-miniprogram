@@ -1,0 +1,2 @@
+<!--pages/base/progress/progress.wxml-->
+<progress percent='100' show-info stroke-width='5' activeColor='green' backgroundColor='blue' active active-mode='forwards'/>

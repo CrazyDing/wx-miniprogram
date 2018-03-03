@@ -1,0 +1,22 @@
+<!--pages/base/icon/icon.wxml-->
+<view class="group">
+  <view>icon的不同大小</view>
+  <block wx:for="{{iconSize}}">
+    <icon type="success" size="{{item}}"/>
+  </block>
+</view>
+
+<view class="group">
+  <view>icon的不同类型</view>
+  <block wx:for="{{iconType}}">
+    <icon type="{{item}}" size="40"/>
+  </block>
+</view>
+
+
+<view class="group">
+  <view>icon的不同颜色</view>
+  <block wx:for="{{iconColor}}">
+    <icon type="success" size="40" color="{{item}}"/>
+  </block>
+</view>

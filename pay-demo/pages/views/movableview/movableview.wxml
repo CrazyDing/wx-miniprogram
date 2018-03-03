@@ -1,0 +1,12 @@
+<!--pages/views/movableview/movableview.wxml-->
+<view>
+  <view>movable-area比movable-view大</view>
+  <movable-area style="height:200px;width:200px;background:red;">
+    <movable-view style='height:50px;width:50px;background:blue' x='{{x}}' y='{{y}}' direction='all'></movable-view>
+  </movable-area>
+  <button size='mini' bindtap='tapEvent'>click me move to random position</button>
+  <view>movable-area比movable-view小</view>
+  <movable-area style="height:100px;width:100px;background:red;">
+    <movable-view style='height:200px;width:200px;background:blue'></movable-view>
+  </movable-area>
+</view>

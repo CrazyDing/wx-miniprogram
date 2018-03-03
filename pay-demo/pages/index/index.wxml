@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class='comp-list'>
+    <view class='comp-cate-head'>一、视图容器</view>
+    <button id='srcoll-view' bindtap='gotoPage'>scroll-view</button>
+    <button id='swiper' bindtap='gotoPage'>swiper</button>
+    <button id='movable-view' bindtap='gotoPage'>movable-view</button>
+    <button id='cover-view' bindtap='gotoPage'>cover-view</button>
+  </view>
+  <view class='comp-list'>
+    <view class='comp-cate-head'>二、基础内容</view>
+    <button id='icon' bindtap='gotoPage'>icon</button>
+    <button id='text' bindtap='gotoPage'>text</button>
+    <button id='rich-text' bindtap='gotoPage'>rich-text</button>
+    <button id='progress' bindtap='gotoPage'>progress</button>
+  </view>
+  <view class='comp-list'>
+    <view class='comp-cate-head'>三、表单组件</view>
+    <button id='button' bindtap='gotoPage'>button</button>
+    <button id='checkbox' bindtap='gotoPage'>checkbox</button>
+    <button id='form' bindtap='gotoPage'>form</button>
+    <button id='input' bindtap='gotoPage'>input</button>
+    <button id='label' bindtap='gotoPage'>label</button>
+    <button id='picker' bindtap='gotoPage'>picker</button>
+  </view>
+</view>

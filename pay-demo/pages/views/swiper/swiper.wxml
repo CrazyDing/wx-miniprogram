@@ -1,0 +1,10 @@
+<!--pages/views/swiper/swiper.wxml-->
+<swiper class='swiper-wrap' indicator-dots indicator-color='raba(0,0,0,0.3)' indicator-active-color='white' current='1' autoplay interval='{{interval}}' duration='{{duration}}' circular previous-margin='10px' next-margin='10px' display-multiple-items='1' skip-hidden-item-layout>
+  <block wx:for='{{imgUrls}}'>
+    <swiper-item>
+      <image class='img-item' src='{{item}}'></image>
+    </swiper-item>
+  </block>
+</swiper>
+<slider bindchange='intervalChange' show-value min='1000'  max='10000' >interval</slider>
+<slider bindchange='durationChange' show-value min='500' max='2000'>duration</slider>

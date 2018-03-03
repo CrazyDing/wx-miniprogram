@@ -1,0 +1,4 @@
+/* pages/base/icon/icon.wxss */
+.group{
+  margin: 50px auto
+}
